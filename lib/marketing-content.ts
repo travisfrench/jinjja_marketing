@@ -90,7 +90,7 @@ export const scenes: SceneContent[] = [
 export const howItWorksItems = [
   {
     stat: "2x",
-    title: "Higher phrase recall",
+    title: "Higher phrase retention",
     description:
       "Learners retained roughly twice as many target phrases when audio and text were reviewed together.",
   },
