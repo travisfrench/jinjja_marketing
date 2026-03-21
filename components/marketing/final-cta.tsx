@@ -14,7 +14,7 @@ export function FinalCta() {
           <h2 className="font-heading text-3xl font-semibold text-foreground sm:text-4xl">
             Take Korean with you
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-base text-muted sm:text-lg">
+          <p className="mx-auto mt-4 max-w-xl text-base text-white/80 sm:text-lg">
             Built for real-life moments in Korea and everyday practice in between.
           </p>
 
@@ -33,13 +33,6 @@ export function FinalCta() {
                 height={60}
                 className="h-11 w-auto"
               />
-            </a>
-            <a
-              href="#top"
-              className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-5 py-3 text-sm font-medium text-white/90 transition hover:bg-white/10"
-            >
-              <ArrowUp size={15} />
-              Back to top
             </a>
           </div>
         </div>

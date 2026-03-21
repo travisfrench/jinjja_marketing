@@ -2,7 +2,7 @@ export const appStoreUrl = "https://apps.apple.com";
 
 export const heroContent = {
   eyebrow: "Repetition-first Korean learning",
-  title: "Learn Korean for real moments in Korea",
+  title: "Korean learnings for real Korea moments",
   description:
     "Study real phrases for cafes, restaurants, transit, hotels, and everyday life in Korea.",
   ctaPrimary: "Download on the App Store",

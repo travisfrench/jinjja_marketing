@@ -12,16 +12,16 @@ export function Hero() {
       <div className="pointer-events-none absolute left-[0%] top-[-12%] h-[42rem] w-[12rem] rotate-[-38deg] bg-[radial-gradient(ellipse_at_top,rgba(205,46,58,0.20)_0%,rgba(205,46,58,0.42)_28%,rgba(205,46,58,0.35)_52%,transparent_12%)] blur-3xl" />
       <div className="pointer-events-none absolute right-[0%] top-[-12%] h-[42rem] w-[12rem] rotate-[38deg] bg-[radial-gradient(ellipse_at_top,rgba(0,71,160,0.20)_0%,rgba(0,71,160,0.42)_28%,rgba(0,71,160,0.35)_52%,transparent_12%)] blur-3xl" />
 
-      <div className="relative z-10 mx-auto flex min-h-[100svh] w-full  items-center px-5 sm:px-8 lg:px-10">
+      <div className="relative z-10 mx-auto flex min-h-[100svh] w-full  items-center px-0 sm:px-8 lg:px-10">
         <div className="relative mx-auto w-full min-h-[100svh]">
           <div className="relative aspect-[1000/667] w-full min-h-[98svh]">
             <Image
-              src="/marketing/hero/hero-iphone-jinjja-2.webp"
+              src="/marketing/hero/jinjja-hero-mobile-light.webp"
               alt="Jinjja hero scene showing the app in a Korean street setting"
               fill
               priority
-              sizes="92vw"
-              className="object-contain mt-20 sm:hidden"
+              sizes="100vw"
+              className="object-cover object-bottom mt-14 sm:hidden"
             />
             <Image
               src={heroContent.heroArt}
@@ -34,7 +34,7 @@ export function Hero() {
 
             <div className="pointer-events-none absolute inset-x-0 top-[8%] z-30 h-[45%] bg-gradient-to-b from-[#E6DCD0] via-[#E6DCD0]/80 to-transparent blur-3xl" />
 
-            <div className="relative flex flex-col gap-2 justify-center items-center z-30 px-2 text-center">
+            <div className="relative flex flex-col gap-2 justify-start items-center z-30 px-2 sm:px-2 text-center">
               <div className="inline-flex items-center mb-3 gap-3">
                 
                 <p className="font-korean text-2xl font-black text-[#CD2E3A]">
@@ -48,12 +48,12 @@ export function Hero() {
               <h1 className="mx-auto mt-4 max-w-[14ch] font-heading text-4xl font-semibold leading-[1.02] text-neutral-700 sm:text-5xl lg:text-[3.5rem]">
                 {heroContent.title}
               </h1>
-              <p className="mx-auto mt-2 max-w-2xl text-sm text-neutral-800 font-medium sm:mt-4 sm:text-lg">
+              <p className="mx-auto max-w-2xl text-sm text-neutral-800 font-medium sm:text-lg">
                 {heroContent.description}
               </p>
             </div>
 
-            <div className="absolute left-1/2 top-[36%] z-50 w-[46%] max-w-[16rem] -translate-x-1/2 sm:top-[34%] sm:w-[31%] sm:max-w-[18rem]">
+            <div className="absolute left-1/2 top-[36%] z-50 w-[90%] max-w-[18rem] -translate-x-1/2 sm:top-[34%] sm:w-[31%] sm:max-w-[18rem]">
               <StudyCard
                 variant="hero"
                 label="Basics"
@@ -71,7 +71,7 @@ export function Hero() {
               href={appStoreUrl}
               target="_blank"
               rel="noreferrer"
-              className="absolute bottom-[12%] left-1/2 z-20 inline-flex -translate-x-1/2 transition hover:opacity-90 sm:bottom-[9%]"
+              className="absolute bottom-[12%] left-1/2 z-20 inline-flex -translate-x-1/2 transition hover:opacity-90 sm:bottom-[12%]"
               aria-label="Download Jinjja from the App Store"
             >
               <Image

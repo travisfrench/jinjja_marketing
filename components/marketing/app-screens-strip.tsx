@@ -21,7 +21,7 @@ export function AppScreensStrip() {
           </p>
         </div>
 
-        <div className="-mx-5 mt-12 overflow-x-auto px-5 pb-2 sm:mx-0 sm:overflow-visible sm:px-0 sm:pb-0">
+        <div className="-mx-5 mt-12 overflow-x-auto overflow-y-clip px-5 pb-2 sm:mx-0 sm:overflow-visible sm:px-0 sm:pb-0">
           <div className="flex w-max snap-x snap-mandatory gap-4 sm:grid sm:w-auto sm:grid-cols-2 lg:grid-cols-4">
           {appScreens.map((screen, index) => (
             <motion.figure
@@ -30,7 +30,7 @@ export function AppScreensStrip() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.35 }}
               transition={{ duration: 0.5, delay: index * 0.08, ease: "easeOut" }}
-              className="group w-[72vw] max-w-[18rem] flex-none snap-start overflow-hidden rounded-[1.8rem] border border-white/15 bg-[linear-gradient(180deg,rgba(11,15,20,0.95),rgba(6,8,10,0.95))] p-2 shadow-panel-soft sm:w-auto sm:max-w-none sm:flex-auto"
+              className="group w-[64vw] max-w-[18rem] flex-none snap-start overflow-hidden rounded-[1.8rem] border border-white/15 bg-[linear-gradient(180deg,rgba(11,15,20,0.95),rgba(6,8,10,0.95))] p-2 sm:w-auto sm:max-w-none sm:flex-auto"
             >
               <div className="relative aspect-[9/19.2] overflow-hidden rounded-[1.35rem] border border-white/10 bg-[#07090c]">
                 <Image
