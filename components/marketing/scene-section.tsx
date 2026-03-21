@@ -19,10 +19,14 @@ const clamp = (value: number, min = 0, max = 1) =>
   Math.min(Math.max(value, min), max);
 
 const sceneLayerOpacity = (intensity: number) => {
-  const fadeStart = 0.54;
-  const fadeEnd = 0.94;
-  const t = clamp((intensity - fadeStart) / (fadeEnd - fadeStart));
-  return 1 - (1 - t) * (1 - t);
+  const fadeStart = 0.24;
+  const fullOpacityAt = 0.58;
+
+  if (intensity <= fadeStart) return 0;
+  if (intensity >= fullOpacityAt) return 1;
+
+  const t = clamp((intensity - fadeStart) / (fullOpacityAt - fadeStart));
+  return t * t * (3 - 2 * t);
 };
 
 const appStoreBadgeSrc =
@@ -143,7 +147,10 @@ export function SceneSection({ scenes }: SceneSectionProps) {
 
         {scenes.map((scene, index) => {
           const intensity = clamp(1 - Math.abs(sceneProgress - index));
-          const opacity = sceneLayerOpacity(intensity);
+          const baseOpacity = sceneLayerOpacity(intensity);
+          const firstSceneIntroOpacity = clamp(sceneProgress / 0.2);
+          const opacity =
+            index === 0 ? baseOpacity * firstSceneIntroOpacity : baseOpacity;
           const y = (index - sceneProgress) * 54;
           const scale = 0.97 + intensity * 0.03;
           const isActive = opacity > 0.3;
