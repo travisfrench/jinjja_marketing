@@ -121,6 +121,11 @@ export const appScreens = [
     alt: "Jinjja study screen",
   },
   {
+    title: "Hangul Basics",
+    src: "/marketing/screenshots/hangul-basics.webp",
+    alt: "Jinjja Hangul basics screen",
+  },
+  {
     title: "Quiz",
     src: "/marketing/screenshots/quiz-light.webp",
     alt: "Jinjja browse screen",
