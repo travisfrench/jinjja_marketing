@@ -2,13 +2,13 @@ export const appStoreUrl = "https://apps.apple.com";
 
 export const heroContent = {
   eyebrow: "Listen. Repeat. Learn.",
-  title: "Korean learnings for real Korea moments",
+  title: "Learn Korean for real Korea moments",
   description:
     "Audio driven, repetition-first Korean learning.",
   ctaPrimary: "Download on the App Store",
   ctaSecondary: "See how it works",
   sceneTags: ["Restaurants", "Cafes", "Transit", "Hotels", "Basics"],
-  heroArt: "/marketing/hero/hero-desktop-iphone-light.webp",
+  heroArt: "/marketing/hero/jinjja-hero-full-sky.webp",
 };
 
 export const navigationLinks = [

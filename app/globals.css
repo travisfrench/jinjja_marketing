@@ -17,10 +17,7 @@ html {
 }
 
 body {
-  background:
-    radial-gradient(circle at 15% 0%, rgba(238, 166, 93, 0.09), transparent 38%),
-    radial-gradient(circle at 80% 10%, rgba(255, 255, 255, 0.06), transparent 35%),
-    #cac7bb;
+  background:#fff;
 }
 
 a {

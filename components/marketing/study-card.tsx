@@ -84,7 +84,7 @@ export function StudyCard({
       )}
     >
       <div className="absolute inset-0 bg-noise-layer opacity-60" aria-hidden />
-      <div className="relative z-10 space-y-4">
+      <div className="relative z-10 space-y-3">
         <div className="flex items-center justify-between gap-3">
           {label ? (
             <p className="inline-flex rounded-full border border-warm/50 bg-warm/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.12em] text-warm">
@@ -142,7 +142,7 @@ export function StudyCard({
             {pills.map((pill) => (
               <li
                 key={pill}
-                className="rounded-full border border-white/15 bg-white/5 px-2.5 py-1 text-xs text-white/80"
+                className="mt-4 rounded-full border border-white/15 bg-white/5 px-2.5 py-1 text-xs text-white/80"
               >
                 {pill}
               </li>
