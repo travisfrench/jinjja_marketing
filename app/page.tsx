@@ -5,11 +5,13 @@ import { AppScreensStrip } from "@/components/marketing/app-screens-strip";
 import { FinalCta } from "@/components/marketing/final-cta";
 import { Footer } from "@/components/marketing/footer";
 import { scenes } from "@/lib/marketing-content";
+import { Navbar } from "@/components/marketing/navbar";
 
 export default function HomePage() {
   return (
     <>
       <main>
+        <Navbar />
         <Hero />
         <SceneSection scenes={scenes} />
 

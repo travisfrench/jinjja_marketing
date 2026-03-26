@@ -26,7 +26,7 @@ export function Hero() {
       />
 
       <div className="hidden absolute z-20 top-4 left-8 mb-3 sm:inline-flex items-center gap-3">
-        <p className="font-korean text-2xl font-black text-neutral-900">Jinjja</p>
+        <p className="hidden font-korean text-2xl font-black text-neutral-900">Jinjja</p>
       </div>
 
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-[58svh] bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.88)_0%,rgba(239,246,255,0.72)_28%,rgba(255,255,255,0.34)_52%,transparent_76%)]" />
@@ -34,10 +34,7 @@ export function Hero() {
       <div className="relative z-20 mx-auto flex min-h-[100svh] w-full items-center px-2 sm:px-8 lg:px-10">
         <div className="relative mx-auto flex min-h-[100svh] w-full flex-col items-center">
           <div className="relative flex flex-col items-center justify-start gap-2 pt-8 text-center sm:pt-10">
-            <div className="sm:hidden mb-3 inline-flex items-center gap-3">
-              <p className="font-korean text-2xl font-black text-neutral-900">Jinjja</p>
-            </div>
-            <p className="inline-flex rounded-full border border-blue-600/50 bg-blue-600/20 px-3 py-1 text-xs uppercase tracking-[0.14em] text-neutral-700">
+            <p className="mt-8 sm:mt-6 inline-flex rounded-full border border-blue-600/50 bg-blue-600/20 px-3 py-1 text-xs uppercase tracking-[0.14em] text-neutral-700">
               {heroContent.eyebrow}
             </p>
             <h1 className="mx-auto mt-4 max-w-[14ch] font-heading text-4xl font-semibold leading-[1.02] text-neutral-900 sm:text-5xl lg:text-[3.5rem]">

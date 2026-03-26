@@ -1,4 +1,3 @@
-import { ArrowUp } from "lucide-react";
 import { SectionShell } from "@/components/marketing/section-shell";
 import { appStoreUrl } from "@/lib/marketing-content";
 import Image from "next/image";
@@ -41,4 +40,3 @@ export function FinalCta() {
     </section>
   );
 }
-

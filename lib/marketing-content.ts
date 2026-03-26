@@ -12,6 +12,7 @@ export const heroContent = {
 };
 
 export const navigationLinks = [
+  { label: "About", href: "/about" },
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
   { label: "Support", href: "/support" },
@@ -144,6 +145,7 @@ export const appScreens = [
 ];
 
 export const footerLinks = [
+  { label: "About", href: "/about" },
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
   { label: "Support", href: "/support" },

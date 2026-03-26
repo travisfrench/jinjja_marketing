@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SectionShell } from "@/components/marketing/section-shell";
-import { appStoreUrl, footerLinks } from "@/lib/marketing-content";
+import { footerLinks } from "@/lib/marketing-content";
 
 export function Footer() {
   return (
