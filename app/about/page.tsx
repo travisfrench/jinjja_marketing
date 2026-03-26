@@ -14,9 +14,9 @@ import { StudyCard } from "@/components/marketing/study-card";
 import { appStoreUrl, howItWorksItems, scenes } from "@/lib/marketing-content";
 
 export const metadata = {
-  title: "About | Jinjja",
+  title: "About | Jjin",
   description:
-    "The lived story behind Jinjja and how real Korea moments shape every phrase set.",
+    "The lived story behind Jjin and how real Korea moments shape every phrase set.",
 };
 
 const fieldNotes = [
@@ -66,7 +66,7 @@ function MomentShowcase() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-xs uppercase tracking-[0.2em] text-[#8B694E]">Built in real life</p>
             <h2 className="mt-4 font-heading text-3xl font-semibold leading-tight text-[#1F1712] sm:text-5xl">
-              The exact moments that shaped Jinjja
+              The exact moments that shaped Jjin
             </h2>
             <p className="mt-5 text-base leading-7 text-[#3E3024] sm:text-lg">
               These are not abstract lesson themes. They are the interactions that kept repeating, so they became the
@@ -136,14 +136,14 @@ export default function AboutPage() {
             <div className="grid items-start gap-10 lg:grid-cols-[1.08fr,1fr]">
               <div className="relative z-10">
                 <p className="inline-flex rounded-full border border-[#C29D7D] bg-[#F4E5D6]/90 px-3 py-1 text-xs uppercase tracking-[0.2em] text-[#88664A]">
-                  About Jinjja
+                  About Jjin
                 </p>
                 <h1 className="mt-5 max-w-[14ch] font-heading text-4xl font-semibold leading-[1.04] sm:text-6xl">
-                  I built Jinjja to talk with family in Korea
+                  I built Jjin to talk with family in Korea
                 </h1>
                 <div className="mt-6 max-w-xl space-y-4 text-base leading-7 text-[#3D2F23] sm:text-lg">
                   <p>
-                    Jinjja started as a personal fix. I wanted to stop freezing in everyday Korean moments and start
+                    Jjin started as a personal fix. I wanted to stop freezing in everyday Korean moments and start
                     responding with more confidence.
                   </p>
                   <p>
@@ -159,7 +159,7 @@ export default function AboutPage() {
                     rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-full border border-[#2A2018] bg-[#2D221A] px-5 py-3 text-sm font-semibold text-[#F8EBDC] transition hover:bg-[#1E1712]"
                   >
-                    Get Jinjja on iOS
+                    Get Jjin on iOS
                     <ArrowUpRight className="h-4 w-4" />
                   </a>
                   <a
@@ -176,7 +176,7 @@ export default function AboutPage() {
                   <div className="relative aspect-[16/11] overflow-hidden rounded-[1.35rem]">
                     <Image
                       src="/marketing/about/hangul-statue-seoul.webp"
-                      alt="Jinjja founder story visual in a Korea street setting"
+                      alt="Jjin founder story visual in a Korea street setting"
                       fill
                       sizes="(max-width: 1024px) 100vw, 42vw"
                       className="object-cover"
@@ -284,7 +284,7 @@ export default function AboutPage() {
                   Personal scope. Clear purpose. No fake fluency promises.
                 </h2>
                 <p className="mt-5 text-base leading-7 text-[#3E3024] sm:text-lg">
-                  Jinjja is intentionally focused. It is for practical phrases, listening-first practice, and confidence
+                  Jjin is intentionally focused. It is for practical phrases, listening-first practice, and confidence
                   in everyday situations. That narrow scope is the point, and it keeps the app honest.
                 </p>
 
@@ -331,7 +331,7 @@ export default function AboutPage() {
             <div className="relative overflow-hidden rounded-[2.1rem] border border-[#9D7D63] bg-[#261B13] p-8 text-[#F5E8D9] shadow-[0_28px_60px_rgba(46,28,15,0.38)] sm:p-12">
               <div className="absolute inset-0">
                 <Image
-                  src="/marketing/scenes/jinjja-hotel-bg.webp"
+                  src="/marketing/scenes/Jjin-hotel-bg.webp"
                   alt="Korea evening scene"
                   fill
                   sizes="100vw"
@@ -346,7 +346,7 @@ export default function AboutPage() {
                   Founder note
                 </p>
                 <p className="mt-5 text-lg leading-8 sm:text-2xl sm:leading-10">
-                  I am building Jinjja for the same reason I started it: to feel more connected in Korea, not more
+                  I am building Jjin for the same reason I started it: to feel more connected in Korea, not more
                   academic. If that is what you want too, this app was made for you.
                 </p>
 
@@ -357,7 +357,7 @@ export default function AboutPage() {
                     rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-full border border-[#E9D2BA]/75 bg-[#F5E4D2] px-5 py-3 text-sm font-semibold text-[#2A2018] transition hover:bg-white"
                   >
-                    Download Jinjja
+                    Download Jjin
                     <ArrowUpRight className="h-4 w-4" />
                   </a>
                   <Link

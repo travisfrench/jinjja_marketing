@@ -44,7 +44,7 @@ export function HowItWorks() {
         </div>
 
         <p className="mt-5 text-center text-xs text-neutral-800/50">
-          Based on internal Jinjja beta learning sessions.
+          Based on internal Jjin beta learning sessions.
         </p>
       </SectionShell>
     </section>

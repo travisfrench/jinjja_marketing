@@ -4,8 +4,8 @@ import { Navbar } from "@/components/marketing/navbar";
 import { Footer } from "@/components/marketing/footer";
 
 export const metadata = {
-  title: "Terms of Service | Jinjja",
-  description: "Terms of service for the Jinjja iOS app.",
+  title: "Terms of Service | Jjin",
+  description: "Terms of service for the Jjin iOS app.",
 };
 
 export default function TermsPage() {
@@ -19,15 +19,15 @@ export default function TermsPage() {
               Effective Date: March 19, 2026
             </p>
             <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-              Jinjja Korean Learning Terms of Use
+              Jjin Korean Learning Terms of Use
             </h1>
             <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-              These Terms of Use (“Terms”) govern your use of the Jinjja Korean
+              These Terms of Use (“Terms”) govern your use of the Jjin Korean
               Learning mobile application, website, and related services
               operated by Travis French (“we,” “us,” or “our”).
             </p>
             <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-              By downloading, accessing, or using Jinjja Korean Learning, you
+              By downloading, accessing, or using Jjin Korean Learning, you
               agree to these Terms.
             </p>
             <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
@@ -42,7 +42,7 @@ export default function TermsPage() {
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-white">1. Use of the Service</h2>
               <p>
-                Jinjja Korean Learning provides Korean language learning
+                Jjin Korean Learning provides Korean language learning
                 content, including words, phrases, progress tracking, favorites,
                 and premium subscription features.
               </p>
@@ -75,7 +75,7 @@ export default function TermsPage() {
                 3. Subscriptions and Premium Access
               </h2>
               <p>
-                Jinjja Korean Learning offers a free tier and optional premium
+                Jjin Korean Learning offers a free tier and optional premium
                 subscriptions, including monthly and annual plans.
               </p>
               <p>
@@ -162,7 +162,7 @@ export default function TermsPage() {
                   href="/support"
                   className="text-white underline decoration-white/30 underline-offset-4 transition hover:decoration-white/70"
                 >
-                  getjinjja.com/support
+                  getJjin.com/support
                 </Link>
                 .
               </p>
@@ -176,7 +176,7 @@ export default function TermsPage() {
                   href="/privacy"
                   className="text-white underline decoration-white/30 underline-offset-4 transition hover:decoration-white/70"
                 >
-                  getjinjja.com/privacy
+                  getJjin.com/privacy
                 </Link>
                 .
               </p>
@@ -199,7 +199,7 @@ export default function TermsPage() {
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-white">9. Disclaimers</h2>
               <p>
-                Jinjja Korean Learning is provided on an “as is” and “as
+                Jjin Korean Learning is provided on an “as is” and “as
                 available” basis to the maximum extent permitted by law.
               </p>
               <p>
@@ -248,10 +248,10 @@ export default function TermsPage() {
                 <p>Travis French</p>
                 <p>
                   <a
-                    href="mailto:hello@getjinjja.com"
+                    href="mailto:hello@getJjin.com"
                     className="text-white underline decoration-white/30 underline-offset-4 transition hover:decoration-white/70"
                   >
-                    hello@getjinjja.com
+                    hello@getJjin.com
                   </a>
                 </p>
               </div>

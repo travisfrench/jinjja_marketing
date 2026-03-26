@@ -23,7 +23,7 @@ export function FinalCta() {
               target="_blank"
               rel="noreferrer"
               className="mx-auto inline-flex"
-              aria-label={`Download Jinjja from the App Store`}
+              aria-label={`Download Jjin from the App Store`}
             >
               <p className="text-black text-md text-center font-semibold bg-white border border-black/70 rounded-md px-3 py-2 shadow-lg">iOS App Available Soon!</p>
               <Image

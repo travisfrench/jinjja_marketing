@@ -5,8 +5,8 @@ import { Navbar } from "@/components/marketing/navbar";
 import { Footer } from "@/components/marketing/footer";
 
 export const metadata = {
-  title: "Support | Jinjja",
-  description: "Get help for the Jinjja iOS app.",
+  title: "Support | Jjin",
+  description: "Get help for the Jjin iOS app.",
 };
 
 export default function SupportPage() {
@@ -23,14 +23,14 @@ export default function SupportPage() {
               Support
             </h1>
             <p className="text-base text-muted">
-              Need help with Jinjja? Reach us and we will get back to you as soon as we can.
+              Need help with Jjin? Reach us and we will get back to you as soon as we can.
             </p>
           </div>
 
           <div className="rounded-2xl border border-white/15 bg-white/5 p-5">
             <p className="flex items-center gap-2 text-foreground">
               <Mail size={18} className="text-warm" />
-              support@getjinjja.com
+              support@getJjin.com
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function SupportPage() {
                 <MessageSquareText size={16} className="mt-1 text-warm" />
                 How do I delete my account?
               </p>
-              <p className="pl-6">If you are a premium member, cancel your membership through Apple Subscriptions. For account deletion, send us an email at support@getjinjja.com and we&apos;ll delete your account and all information.</p>
+              <p className="pl-6">If you are a premium member, cancel your membership through Apple Subscriptions. For account deletion, send us an email at support@getJjin.com and we&apos;ll delete your account and all information.</p>
             </div>
           </section>
         </div>

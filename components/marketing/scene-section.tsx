@@ -106,7 +106,7 @@ export function SceneSection({ scenes }: SceneSectionProps) {
                     target="_blank"
                     rel="noreferrer"
                     className="mx-auto mt-4 inline-flex"
-                    aria-label={`Download Jinjja from the App Store for ${scene.label}`}
+                    aria-label={`Download Jjin from the App Store for ${scene.label}`}
                   >
                     <p className="text-black text-md text-center font-semibold bg-white border border-black/70 rounded-md px-3 py-2 shadow-lg">iOS App Available Soon!</p>
                     <Image
@@ -210,7 +210,7 @@ export function SceneSection({ scenes }: SceneSectionProps) {
                       target="_blank"
                       rel="noreferrer"
                       className="mx-auto mt-4 inline-flex"
-                      aria-label={`Download Jinjja from the App Store for ${scene.label}`}
+                      aria-label={`Download Jjin from the App Store for ${scene.label}`}
                     >
                       <p className="text-black text-md text-center font-semibold bg-white border border-black/70 rounded-md px-3 py-2 shadow-lg">iOS App Available Soon!</p>
                       <Image

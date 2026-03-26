@@ -61,10 +61,10 @@ export function Navbar() {
         <Link
           href="/"
           className="font-korean text-xl font-black tracking-wide text-black/80"
-          aria-label="Jinjja home"
+          aria-label="Jjin home"
           onClick={() => setOpen(false)}
         >
-          Jinjja
+          Jjin
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex" aria-label="Primary">

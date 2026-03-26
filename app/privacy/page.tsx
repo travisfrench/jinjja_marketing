@@ -4,8 +4,8 @@ import { Navbar } from "@/components/marketing/navbar";
 import { Footer } from "@/components/marketing/footer";
 
 export const metadata = {
-  title: "Privacy Policy | Jinjja",
-  description: "Privacy policy for the Jinjja iOS app.",
+  title: "Privacy Policy | Jjin",
+  description: "Privacy policy for the Jjin iOS app.",
 };
 
 export default function PrivacyPage() {
@@ -19,17 +19,17 @@ export default function PrivacyPage() {
               Effective Date: March 19, 2026
             </p>
             <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-              Jinjja Korean Learning Privacy Policy
+              Jjin Korean Learning Privacy Policy
             </h1>
             <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-              Jinjja Korean Learning (“Jinjja Korean Learning,” “we,” “us,” or
+              Jjin Korean Learning (“Jjin Korean Learning,” “we,” “us,” or
               “our”) respects your privacy. This Privacy Policy explains what
               information we collect, how we use it, when we share it, and the
-              choices available to you when you use the Jinjja Korean Learning
+              choices available to you when you use the Jjin Korean Learning
               mobile application, our website, and related support services.
             </p>
             <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-              By using Jinjja Korean Learning, you agree to the practices
+              By using Jjin Korean Learning, you agree to the practices
               described in this Privacy Policy.
             </p>
           </div>
@@ -252,7 +252,7 @@ export default function PrivacyPage() {
                   href="/support"
                   className="text-white underline decoration-white/30 underline-offset-4 transition hover:decoration-white/70"
                 >
-                  getjinjja.com/support
+                  getJjin.com/support
                 </Link>
                 .
               </p>
@@ -269,7 +269,7 @@ export default function PrivacyPage() {
                 9. Children’s Privacy
               </h2>
               <p>
-                Jinjja Korean Learning is not directed to children under 13, and
+                Jjin Korean Learning is not directed to children under 13, and
                 we do not knowingly collect personal information from children
                 under 13.
               </p>
@@ -318,10 +318,10 @@ export default function PrivacyPage() {
                 <p>Travis French</p>
                 <p>
                   <a
-                    href="mailto:hello@getjinjja.com"
+                    href="mailto:hello@getJjin.com"
                     className="text-white underline decoration-white/30 underline-offset-4 transition hover:decoration-white/70"
                   >
-                    hello@getjinjja.com
+                    hello@getJjin.com
                   </a>
                 </p>
               </div>

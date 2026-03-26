@@ -9,8 +9,8 @@ export function Hero() {
   return (
     <section className="relative min-h-[100svh] w-full overflow-hidden">
       <Image
-        src="/marketing/hero/jinjja-hero-mobile-sky.webp"
-        alt="Jinjja hero scene showing the app in a Korean street setting"
+        src="/marketing/hero/Jjin-hero-mobile-sky.webp"
+        alt="Jjin hero scene showing the app in a Korean street setting"
         fill
         priority
         sizes="100vw"
@@ -18,7 +18,7 @@ export function Hero() {
       />
       <Image
         src={heroContent.heroArt}
-        alt="Jinjja hero scene showing the app in a Korean street setting"
+        alt="Jjin hero scene showing the app in a Korean street setting"
         fill
         priority
         sizes="100vw"
@@ -26,7 +26,7 @@ export function Hero() {
       />
 
       <div className="hidden absolute z-20 top-4 left-8 mb-3 sm:inline-flex items-center gap-3">
-        <p className="hidden font-korean text-2xl font-black text-neutral-900">Jinjja</p>
+        <p className="hidden font-korean text-2xl font-black text-neutral-900">Jjin</p>
       </div>
 
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-[58svh] bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.88)_0%,rgba(239,246,255,0.72)_28%,rgba(255,255,255,0.34)_52%,transparent_76%)]" />
@@ -64,7 +64,7 @@ export function Hero() {
             target="_blank"
             rel="noreferrer"
             className="absolute bottom-[12%] left-1/2 z-30 inline-flex -translate-x-1/2 transition hover:opacity-90 sm:bottom-[12%]"
-            aria-label="Download Jinjja from the App Store"
+            aria-label="Download Jjin from the App Store"
           >
             <p className="rounded-md border border-black/70 bg-white px-3 py-2 text-center text-md font-semibold text-black shadow-lg">
               iOS App Available Soon!

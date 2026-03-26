@@ -11,7 +11,7 @@ export function Footer() {
           <div className="inline-flex items-center mb-3 gap-3">
 
             <p className="font-korean text-2xl font-black text-[#CD2E3A]">
-              Jinjja
+              Jjin
             </p>
             <Image src="/marketing/hero/south-korea-flag.png" alt="Flag of South Korea" width={40} height={20} />
           </div>

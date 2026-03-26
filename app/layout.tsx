@@ -53,23 +53,23 @@ const notoSansKr = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Jinjja | Learn Korean for real-life moments",
+  title: "Jjin | Learn Korean for real-life moments",
   description:
     "Study real Korean phrases for cafes, restaurants, transit, hotels, and everyday life in Korea.",
-  applicationName: "Jinjja",
-  metadataBase: new URL("https://getjinjja.com"),
+  applicationName: "Jjin",
+  metadataBase: new URL("https://getJjin.com"),
   openGraph: {
-    title: "Jinjja | Learn Korean for real-life moments",
+    title: "Jjin | Learn Korean for real-life moments",
     description:
       "Study real Korean phrases for cafes, restaurants, transit, hotels, and everyday life in Korea.",
-    siteName: "Jinjja",
+    siteName: "Jjin",
     type: "website",
     images: [
       {
         url: "/marketing/og/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Jinjja app preview",
+        alt: "Jjin app preview",
       },
     ],
   },
