@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { buildBreadcrumbSchema, createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Terms of Service | Jjin Korean Learning App",
+  title: "Terms of Service | Jjin Learn Korean App",
   description:
     "Read the terms of use for the Jjin iPhone app, including subscriptions, acceptable use, support, and liability terms.",
   path: "/terms",
@@ -30,7 +30,7 @@ export default function TermsPage() {
                 Effective Date: March 19, 2026
               </p>
               <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                Jjin Korean Learning Terms of Use
+                Jjin Learn Korean Terms of Use
               </h1>
               <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
                 These Terms of Use (“Terms”) govern your use of the Jjin Korean
@@ -38,7 +38,7 @@ export default function TermsPage() {
                 operated by Travis French (“we,” “us,” or “our”).
               </p>
               <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-                By downloading, accessing, or using Jjin Korean Learning, you
+                By downloading, accessing, or using Jjin Learn Korean, you
                 agree to these Terms.
               </p>
               <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
@@ -53,7 +53,7 @@ export default function TermsPage() {
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-white">1. Use of the Service</h2>
               <p>
-                Jjin Korean Learning provides Korean language learning
+                Jjin Learn Korean provides Korean language learning
                 content, including words, phrases, progress tracking, favorites,
                 and premium subscription features.
               </p>
@@ -86,7 +86,7 @@ export default function TermsPage() {
                 3. Subscriptions and Premium Access
               </h2>
               <p>
-                Jjin Korean Learning offers a free tier and optional premium
+                Jjin Learn Korean offers a free tier and optional premium
                 subscriptions, including monthly and annual plans.
               </p>
               <p>
@@ -210,7 +210,7 @@ export default function TermsPage() {
             <section className="space-y-3">
               <h2 className="text-xl font-semibold text-white">9. Disclaimers</h2>
               <p>
-                Jjin Korean Learning is provided on an “as is” and “as
+                Jjin Learn Korean is provided on an “as is” and “as
                 available” basis to the maximum extent permitted by law.
               </p>
               <p>

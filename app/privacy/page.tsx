@@ -6,7 +6,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { buildBreadcrumbSchema, createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Privacy Policy | Jjin Korean Learning App",
+  title: "Privacy Policy | Jjin Learn Korean App",
   description:
     "Read the privacy policy for the Jjin iPhone app, including account data, subscription information, analytics, and deletion requests.",
   path: "/privacy",
@@ -30,17 +30,17 @@ export default function PrivacyPage() {
                 Effective Date: March 19, 2026
               </p>
               <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                Jjin Korean Learning Privacy Policy
+                Jjin Learn Korean Privacy Policy
               </h1>
               <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-                Jjin Korean Learning (“Jjin Korean Learning,” “we,” “us,” or
+                Jjin Learn Korean (“Jjin Learn Korean,” “we,” “us,” or
                 “our”) respects your privacy. This Privacy Policy explains what
                 information we collect, how we use it, when we share it, and the
-                choices available to you when you use the Jjin Korean Learning
+                choices available to you when you use the Jjin Learn Korean
                 mobile application, our website, and related support services.
               </p>
               <p className="text-sm leading-7 text-white/72 sm:text-[15px]">
-                By using Jjin Korean Learning, you agree to the practices
+                By using Jjin Learn Korean, you agree to the practices
                 described in this Privacy Policy.
               </p>
             </div>
@@ -280,7 +280,7 @@ export default function PrivacyPage() {
                 9. Children’s Privacy
               </h2>
               <p>
-                Jjin Korean Learning is not directed to children under 13, and
+                Jjin Learn Korean is not directed to children under 13, and
                 we do not knowingly collect personal information from children
                 under 13.
               </p>

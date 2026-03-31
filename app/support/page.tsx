@@ -7,7 +7,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { buildBreadcrumbSchema, createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
-  title: "Support | Jjin Korean Learning App",
+  title: "Support | Jjin Learn Korean App",
   description: "Get help with the Jjin iPhone app, account access, audio issues, and account deletion requests.",
   path: "/support",
 });
