@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora, Source_Sans_3 } from "next/font/google";
 import localFont from "next/font/local";
+import Script from "next/script";
 import "./globals.css";
 
 const sora = Sora({
@@ -83,6 +84,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const isProduction = process.env.NODE_ENV === "production";
+
   return (
     <html lang="en" className="h-full bg-white">
       <body
@@ -90,6 +93,22 @@ export default function RootLayout({
         className={`${sora.variable} ${sourceSans.variable} ${notoSansKr.variable} min-h-full bg-white font-body text-foreground antialiased`}
       >
         {children}
+        {isProduction && (
+          <>
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-ETHNQ99GZ0"
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-ETHNQ99GZ0');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );
